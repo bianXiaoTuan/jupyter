@@ -4,7 +4,7 @@ import random
 import numpy as np
 import pandas as pd
 
-dates = pd.date_range('2014-01-01 00:00:00', periods=8759, freq='1H')
+dates = pd.date_range(start='2008-01-01 00:00:00', end='2012-01-01 00:00:00', freq='1H')
 
 print 'Date,Temperature,DewPoint,Pressure'
 for date in dates: 
